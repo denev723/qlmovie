@@ -1,0 +1,20 @@
+{
+  "name": "qlmovie",
+  "version": "1.0.0",
+  "description": "Graph ql로 Movie API 만들기 with nomadcoders",
+  "main": "index.js",
+  "repository": "https://github.com/denev723/qlmovie.git",
+  "author": "denev <65989857+deneb0723@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
